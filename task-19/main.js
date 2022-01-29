@@ -16,6 +16,10 @@ function deleteTask(obj, key){
     delete obj[key]
 }
 
+function showList(obj){
+    console.log(obj)
+}
+
 changeStatus(tasks, "Read a book", "In Progress")
 
 console.log(tasks)
@@ -27,3 +31,5 @@ console.log(tasks)
 deleteTask(tasks, "Take a bath")
 
 console.log(tasks)
+
+showList(tasks)
